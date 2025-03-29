@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Home
-permalink: /home/
+title: Accueil
 ---
 
-# Guinée's No.1 Ranked CTF Team & Cyber Security Club
-
-We are a team of young enthusiasts from Guinée Conakry, passionate about cyber security, and dedicated to mastering CTF challenges. As the leading cyber-security team in Guinée, we participate in national and international CTFs, organize workshops, and work on cutting-edge cyber-security research projects.
-
-[Join Recruitment CTF](#)
+<div class="content">
+  <h1>L'équipe CTF n°1 de Guinée &<br>Club de cybersécurité</h1>
+  <p>Nous sommes une équipe de jeunes passionnés de Guinée Conakry, animés par la cybersécurité et déterminés à exceller dans les défis CTF. En tant que principale équipe de cybersécurité en Guinée, nous participons à des CTF nationaux et internationaux, organisons des ateliers et travaillons sur des projets de recherche en cybersécurité de pointe.</p>
+  <a href="#" class="btn">REJOINDRE LE CTF DE RECRUTEMENT</a>
+</div>
