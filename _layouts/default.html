@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,17 +60,36 @@
       text-decoration: none;
       color: #333;
     }
+    .dark-mode {
+      background: #222;
+      color: #fff;
+    }
+    .dark-mode a {
+      color: #fff;
+    }
+    .dark-mode-toggle {
+      cursor: pointer;
+      margin-left: 20px;
+    }
   </style>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
 </head>
 <body>
   <header>
-    <div class="logo">Guinea Offensive Security</div>
+    <div class="logo">
+      Guinea <span style="font-weight: bold; transform: scaleX(-1); display: inline-block;">O</span>ffensive Security
+    </div>
     <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/members">Members</a>
-      <a href="/achievements">Achievements</a>
+      <a href="/">Accueil</a>
+      <a href="/about">À propos</a>
+      <a href="/members">Membres</a>
+      <a href="/achievements">Réalisations</a>
       <a href="/blog">Blog</a>
+      <span class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</span>
     </nav>
   </header>
 
@@ -79,8 +98,8 @@
   </div>
 
   <footer>
-    &copy; Team Guinea Offensive Security 2023 – 2025. All rights reserved.<br>
-    <a href="https://ctftime.org/team/XXXX">CTFtime</a>
+    © Équipe Guinea Offensive Security 2023 – 2025. Tous droits réservés.<br>
+    <a href="https://ctftime.org/team/XXXX" style="background: #e74c3c; color: white; padding: 2px 5px; text-decoration: none;">CTFtime</a>
     <a href="mailto:contact@guineaoffensivesecurity.com">✉️</a>
     <a href="https://twitter.com/guineaoffsec">🐦</a>
     <a href="https://linkedin.com/company/guineaoffsec">in</a>
