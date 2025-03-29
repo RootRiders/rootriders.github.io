@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://www.toptal.com/designers/subtlepatterns/uploads/graphy.png');
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    header .logo {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+    }
+    .content {
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    .content h1 {
+      font-size: 2.5em;
+    }
+    .content p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: 2px solid #333;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    footer a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Guinea Offensive Security</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/members">Members</a>
+      <a href="/achievements">Achievements</a>
+      <a href="/blog">Blog</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <footer>
+    &copy; Team Guinea Offensive Security 2023 – 2025. All rights reserved.<br>
+    <a href="https://ctftime.org/team/XXXX">CTFtime</a>
+    <a href="mailto:contact@guineaoffensivesecurity.com">✉️</a>
+    <a href="https://twitter.com/guineaoffsec">🐦</a>
+    <a href="https://linkedin.com/company/guineaoffsec">in</a>
+  </footer>
+</body>
+</html>
