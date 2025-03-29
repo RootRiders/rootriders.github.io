@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /home/
 ---
 
 # Guinée's No.1 Ranked CTF Team & Cyber Security Club
